@@ -74,7 +74,7 @@ RPG Maker MV games are designed for desktop mouse/keyboard input. When played on
 ## ⚙️ JoiPlay 
 
 - Open JoiPlay
-- launch your Game And you can See Button middle Down
+- launch your Game And you can See Button Right up corner
 - You can touch botton menu and on / off Feature's 
 
 This ensures that the plugin handles all touch‑to‑mouse translation, avoiding double‑mapping and erratic behavior.
