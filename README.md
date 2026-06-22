@@ -14,8 +14,10 @@
 
 If this plugin helps you, consider supporting further development:
 
+
+USDT (ERC-20): 
 ```
-USDT (ERC-20): 0xfcdc026df89867aec34c3cfd3893b269924ce896
+0xfcdc026df89867aec34c3cfd3893b269924ce896
 ```
 
 Your donation is greatly appreciated! 🙏
@@ -69,33 +71,13 @@ RPG Maker MV games are designed for desktop mouse/keyboard input. When played on
 
 ---
 
-## ⚙️ JoiPlay Settings (Critical)
+## ⚙️ JoiPlay 
 
-For the plugin to work correctly, **disable** JoiPlay's built‑in mouse emulation:
+- Open JoiPlay
+- Lunche Game And you can See Button middle Down
 
-- Open JoiPlay settings  
-- Go to **"Use Mouse for Touch"** and turn it **OFF** ❌
 
 This ensures that the plugin handles all touch‑to‑mouse translation, avoiding double‑mapping and erratic behavior.
-
----
-
-## 🧪 How It Works (Technical)
-
-| Feature                 | Implementation |
-|-------------------------|----------------|
-| Coordinate Sync         | On touch start, `TouchInput.x/y` is written to `$gameVariables.setValue(18, x)` and `(19, y)`. |
-| Click Cooldown          | A 20‑frame timer prevents any new click from registering until the cooldown expires. |
-| Switch Toggle           | `$gameSwitches.setValue(58, true)` on touch, reset on release (optional). |
-
-All logic is self‑contained – no external dependencies required.
-
----
-
-## 🛠️ Customization
-
-You can adjust the cooldown duration by editing the `COOLDOWN_FRAMES` constant inside the plugin file (default is 20).  
-Variable and switch IDs are also easily changeable at the top of the script.
 
 ---
 
@@ -124,8 +106,3 @@ Feel free to use, modify, and distribute it in both commercial and non‑commerc
 ---
 
 **Enjoy a smooth RPG Maker MV experience on your Android device!** 🎉
-```
-
----
-
-Just **copy everything above** and paste it into your file. All the formatting, badges, donation address, and plugin instructions are ready to go.
