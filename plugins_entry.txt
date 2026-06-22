@@ -1,0 +1,12 @@
+Add the following line to the END of your 'www/js/plugins.js' file, 
+just before the final ]; bracket:
+
+{"name":"JoiPlay_MouseFix","status":true,"description":"JoiPlay Touch-to-Mouse Sync and Click Cooldown","parameters":{}}
+
+---------------------------------------------------------
+Example of the end of your plugins.js file:
+
+...
+{"name":"X_SocialMediaButtons","status":true,"description":"","parameters":{}},
+{"name":"JoiPlay_MouseFix","status":true,"description":"JoiPlay Touch-to-Mouse Sync and Click Cooldown","parameters":{}}
+];
