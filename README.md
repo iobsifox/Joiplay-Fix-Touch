@@ -74,8 +74,8 @@ RPG Maker MV games are designed for desktop mouse/keyboard input. When played on
 ## ⚙️ JoiPlay 
 
 - Open JoiPlay
-- Lunche Game And you can See Button middle Down
-
+- launch your Game And you can See Button middle Down
+- You can touch botton menu and on / off Feature's 
 
 This ensures that the plugin handles all touch‑to‑mouse translation, avoiding double‑mapping and erratic behavior.
 
@@ -84,7 +84,7 @@ This ensures that the plugin handles all touch‑to‑mouse translation, avoidin
 ## 📄 License
 
 This plugin is provided **as‑is** under the MIT License.  
-Feel free to use, modify, and distribute it in both commercial and non‑commercial projects.
+Feel free to use, and distribute it in both commercial and non‑commercial projects.
 
 ---
 
@@ -93,15 +93,6 @@ Feel free to use, modify, and distribute it in both commercial and non‑commerc
 - **Creator:** Obsifox  
 - **Inspired by:** Community feedback from JoiPlay users and RPG Maker MV developers.
 
----
-
-## ❓ Troubleshooting
-
-| Problem                     | Solution |
-|-----------------------------|----------|
-| Clicks still skip menus     | Ensure `"Use Mouse for Touch"` is **OFF** in JoiPlay. |
-| Coordinates not updating    | Check that Variables 18 & 19 are not used by other plugins. |
-| Plugin not loaded           | Verify the entry is correctly added to `plugins.js` and that the file is in the right folder. |
 
 ---
 
