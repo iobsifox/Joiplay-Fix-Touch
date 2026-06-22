@@ -1,4 +1,4 @@
-# JoiPlay RPG Maker MV Touch Sync (v1.0)
+# JoiPlay RPG Maker MV Touch Sync
 
 This plugin fixes common issues when playing RPG Maker MV games designed for PC on JoiPlay (Android).
 
