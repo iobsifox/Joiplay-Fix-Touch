@@ -1,7 +1,7 @@
 <!-- Header Badges -->
 <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 16px;">
-  <span style="display: inline-block; background-color: #6a0dad; color: #ffffff; padding: 4px 14px; font-weight: bold; border-radius: 0px; font-size: 18px;">Obsifox</span>
-  <span style="display: inline-block; background-color: #f9ca24; color: #000000; padding: 4px 14px; font-weight: bold; border-radius: 0px; font-size: 18px;">JP-MF v1.7</span>
+  <span style="display: inline-block; background-color: #6a0dad; color: #6a0dad; padding: 4px 14px; font-weight: bold; border-radius: 0px; font-size: 18px;">Obsifox</span>
+  <span style="display: inline-block; background-color: #f9ca24; color: #f9ca24; padding: 4px 14px; font-weight: bold; border-radius: 0px; font-size: 18px;">JP-MF v1.7</span>
 </div>
 
 # 🎮 JoiPlay RPG Maker MV – Touch Sync & Mouse Fix
