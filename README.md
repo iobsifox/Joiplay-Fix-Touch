@@ -14,7 +14,7 @@
 
 ## Overview
 
-<img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/touch_app/materialicons/24dp.png" width="20" align="center"/> RPG Maker MV games are designed for desktop mouse/keyboard input. When played on Android using **JoiPlay**, touch events often don't map correctly to mouse coordinates, causing menus to skip, buttons to misbehave, and dialogue to fast-forward unintentionally.
+RPG Maker MV games are designed for desktop mouse/keyboard input. When played on Android using **JoiPlay**, touch events often don't map correctly to mouse coordinates, causing menus to skip, buttons to misbehave, and dialogue to fast-forward unintentionally.
 
 **JoiPlay_MouseFix** bridges that gap by synchronizing touch coordinates with mouse events and adding a smart cooldown to prevent accidental rapid clicks.
 
@@ -22,12 +22,12 @@
 
 ## Features
 
-| | Feature | Description |
-|---|---------|-------------|
-| <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/touch_app/materialicons/24dp.png" width="20"/> | **Touch-to-Mouse Mapping** | Converts touch X/Y positions into RPG Maker's mouse coordinates (Variables 18 & 19) |
-| <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/timer/materialicons/24dp.png" width="20"/> | **Rapid-Click Prevention** | 20-frame cooldown between clicks — no more menu skips or dialogue fast-forward |
-| <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/toggle_on/materialicons/24dp.png" width="20"/> | **Automatic Switch Control** | Toggles Switch 58 on every touch event for conditional branches |
-| <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/extension/materialicons/24dp.png" width="20"/> | **Lightweight & Compatible** | Works alongside other plugins without conflicts |
+| Feature | Description |
+|---------|-------------|
+| **Touch-to-Mouse Mapping** | Converts touch X/Y positions into RPG Maker's mouse coordinates (Variables 18 and 19) |
+| **Rapid-Click Prevention** | 20-frame cooldown between clicks — no more menu skips or dialogue fast-forward |
+| **Automatic Switch Control** | Toggles Switch 58 on every touch event for conditional branches |
+| **Lightweight and Compatible** | Works alongside other plugins without conflicts |
 
 ---
 
@@ -63,8 +63,6 @@ Save and relaunch your game in JoiPlay. A settings button appears in the top-rig
 3. Tap the **menu button** in the top-right corner
 4. Toggle features **on/off** as needed
 
-This ensures the plugin handles all touch-to-mouse translation properly.
-
 ---
 
 ## Donate
@@ -95,7 +93,5 @@ Feel free to use and distribute it in both commercial and non-commercial project
 ---
 
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=6,11,20&height=60&section=footer" width="100%"/>
-
 </div>
