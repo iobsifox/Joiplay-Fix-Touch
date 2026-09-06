@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/iobsifox/Joiplay-Fix-Touch/main/branding/logo-banner.png" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=6,11,20&height=150&section=header&text=JoiPlay%20Touch%20Fix&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=50" width="100%"/>
 
 # Touch Sync & Mouse Fix for RPG Maker MV
 
@@ -93,5 +93,5 @@ Feel free to use and distribute it in both commercial and non-commercial project
 ---
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/iobsifox/Joiplay-Fix-Touch/main/branding/logo-icon.png" width="48"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=6,11,20&height=60&section=footer" width="100%"/>
 </div>
