@@ -91,3 +91,11 @@ Feel free to use, and distribute it in both commercial and non‑commercial proj
 ---
 
 **Enjoy a smooth RPG Maker MV experience on your Android device!** 🎉
+
+---
+
+## 💖 Support & Donate
+
+[![Donate](https://img.shields.io/badge/💖_Donate_Now-ff69b4?style=for-the-badge)](https://www.paypal.com/paypalme/obsifox)
+
+Every donation helps! 🙏
