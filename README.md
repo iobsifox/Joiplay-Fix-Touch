@@ -1,101 +1,101 @@
-# 🎮 JoiPlay RPG Maker MV – Touch Sync & Mouse Fix
+<div align="center">
 
-> **Fixes touch input issues for RPG Maker MV games played on Android via JoiPlay.**
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=6,11,20&height=150&section=header&text=JoiPlay%20Touch%20Fix&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=50" width="100%"/>
 
----
+# Touch Sync & Mouse Fix for RPG Maker MV
 
-## 💰 Support the Project
+**Fixes touch input issues for RPG Maker MV games played on Android via JoiPlay**
 
-If this plugin helps you, consider supporting further development:
+<img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/Engine-RPG%20Maker%20MV-FF5733?style=for-the-badge"/> <img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge"/> <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge"/>
 
-
-USDT (ERC-20): 
-```
-0xfcdc026df89867aec34c3cfd3893b269924ce896
-```
-
-Your donation is greatly appreciated! 🙏
+</div>
 
 ---
 
-## 📖 Overview
+## Overview
 
-RPG Maker MV games are designed for desktop mouse/keyboard input. When played on Android using **JoiPlay**, touch events often don't map correctly to mouse coordinates, causing menus to skip, buttons to misbehave, and dialogue to fast-forward unintentionally.
+<img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/touch_app/materialicons/24dp.png" width="20" align="center"/> RPG Maker MV games are designed for desktop mouse/keyboard input. When played on Android using **JoiPlay**, touch events often don't map correctly to mouse coordinates, causing menus to skip, buttons to misbehave, and dialogue to fast-forward unintentionally.
 
 **JoiPlay_MouseFix** bridges that gap by synchronizing touch coordinates with mouse events and adding a smart cooldown to prevent accidental rapid clicks.
 
 ---
 
-## ✨ Features
+## Features
 
-- **Touch‑to‑Mouse Coordinate Mapping**  
-  Converts touch screen X/Y positions into RPG Maker's mouse coordinates and stores them in **Variables 18 and 19**, making them compatible with plugins like `OrangeMouseData`.
-
-- **Rapid‑Click Prevention**  
-  Enforces a **20‑frame cooldown** between consecutive clicks. This eliminates the annoying "menu scroll skip" and "dialogue fast‑forward" that happens when tapping too quickly.
-
-- **Automatic Switch Control**  
-  Toggles **Switch 58** automatically on every touch event – useful for other plugins or conditional branches that rely on touch state.
-
-- **Lightweight & Non‑Intrusive**  
-  Works alongside other plugins without conflicts.
+| | Feature | Description |
+|---|---------|-------------|
+| <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/touch_app/materialicons/24dp.png" width="20"/> | **Touch-to-Mouse Mapping** | Converts touch X/Y positions into RPG Maker's mouse coordinates (Variables 18 & 19) |
+| <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/timer/materialicons/24dp.png" width="20"/> | **Rapid-Click Prevention** | 20-frame cooldown between clicks — no more menu skips or dialogue fast-forward |
+| <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/toggle_on/materialicons/24dp.png" width="20"/> | **Automatic Switch Control** | Toggles Switch 58 on every touch event for conditional branches |
+| <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/extension/materialicons/24dp.png" width="20"/> | **Lightweight & Compatible** | Works alongside other plugins without conflicts |
 
 ---
 
-## 📦 Installation
+## Installation
 
-1. **Download** the plugin file `JoiPlay_MouseFix.js` and place it in your game's `www/js/plugins/` folder.
+### Step 1 — Download Plugin
+Download `JoiPlay_MouseFix.js` and place it in your game's `www/js/plugins/` folder.
 
-2. **Register** the plugin in `www/js/plugins.js`.  
-   Open the file and **add the following entry** at the very end of the array, **before** the closing `];` bracket:
+### Step 2 — Register Plugin
+Open `www/js/plugins.js` and **add this entry** at the end of the array, before `];`:
 
-   ```json
-   {"name":"JoiPlay_MouseFix","status":true,"description":"JoiPlay Touch-to-Mouse Sync and Click Cooldown","parameters":{}}
-   ```
+```json
+{"name":"JoiPlay_MouseFix","status":true,"description":"JoiPlay Touch-to-Mouse Sync and Click Cooldown","parameters":{}}
+```
 
-   > **Example** – your `plugins.js` should end like this:
-   ```js
-   ...
-   {"name":"X_SocialMediaButtons","status":true,"description":"","parameters":{}},
-   {"name":"JoiPlay_MouseFix","status":true,"description":"JoiPlay Touch-to-Mouse Sync and Click Cooldown","parameters":{}}
-   ];
-   ```
+> **Example** — your `plugins.js` should end like this:
+```js
+...
+{"name":"X_SocialMediaButtons","status":true,"description":"","parameters":{}},
+{"name":"JoiPlay_MouseFix","status":true,"description":"JoiPlay Touch-to-Mouse Sync and Click Cooldown","parameters":{}}
+];
+```
 
-3. **Save** the file and relaunch your game in JoiPlay.
-
----
-
-## ⚙️ JoiPlay 
-
-- Open JoiPlay
-- launch your Game And you can See Button Right up corner
-- You can touch botton menu and on / off Feature's 
-
-This ensures that the plugin handles all touch‑to‑mouse translation, avoiding double‑mapping and erratic behavior.
+### Step 3 — Launch
+Save and relaunch your game in JoiPlay. A settings button appears in the top-right corner to toggle features on/off.
 
 ---
 
-## 📄 License
+## JoiPlay Settings
 
-This plugin is provided **as‑is** under the MIT License.  
-Feel free to use, and distribute it in both commercial and non‑commercial projects.
+1. Open JoiPlay
+2. Launch your game
+3. Tap the **menu button** in the top-right corner
+4. Toggle features **on/off** as needed
 
----
-
-## 🙌 Credits
-
-- **Creator:** Obsifox  
-- **Inspired by:** Community feedback from JoiPlay users and RPG Maker MV developers.
-
+This ensures the plugin handles all touch-to-mouse translation properly.
 
 ---
 
-**Enjoy a smooth RPG Maker MV experience on your Android device!** 🎉
+## Donate
+
+If this plugin helps you, consider supporting development:
+
+**USDT (ERC-20):**
+```
+0xfcdc026df89867aec34c3cfd3893b269924ce896
+```
+
+<img src="https://img.shields.io/badge/USDT-ERC20-26A17B?style=for-the-badge&logo=tether&logoColor=white"/>
 
 ---
 
-## 💖 Support & Donate
+## License
 
-[![Donate](https://img.shields.io/badge/💖_Donate_Now-ff69b4?style=for-the-badge)](https://www.paypal.com/paypalme/obsifox)
+This plugin is provided **as-is** under the **MIT License**.
+Feel free to use and distribute it in both commercial and non-commercial projects.
 
-Every donation helps! 🙏
+---
+
+## Credits
+
+**Creator:** Obsifox
+**Inspired by:** Community feedback from JoiPlay users and RPG Maker MV developers.
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=6,11,20&height=60&section=footer" width="100%"/>
+
+</div>
