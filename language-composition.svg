@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="58" viewBox="0 0 800 58" role="img" aria-label="Code language composition">
+<defs><clipPath id="bar"><rect width="800" height="12" rx="6"/></clipPath></defs>
+<g clip-path="url(#bar)">
+<rect x="0.00" width="800.00" height="12" fill="#F1E05A"/>
+</g>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" fill="#8c959f">
+<rect x="0" y="21" width="10" height="10" rx="5" fill="#F1E05A"/>
+<text x="17" y="31" fill="#8c959f">JavaScript 100.0%</text>
+</g>
+</svg>

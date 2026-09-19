@@ -24,11 +24,9 @@ Add the supplied plugin entry to the end of `www/js/plugins.js`, immediately bef
 
 ## Code composition
 
-The distributed patch implementation contains one language.
+The distributed patch implementation is represented by the visual language bar below.
 
-| Language | Percentage |
-| --- | ---: |
-| JavaScript | 100.0% |
+![Code language composition](language-composition.svg)
 
 ---
 
